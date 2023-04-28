@@ -1,0 +1,399 @@
+.topic {
+margin-bottom: 10px;
+padding-bottom: 20px;
+Font-family: "TT Lakes";
+color: #7E7E82;
+Font-size: 16px;
+Line-height: 24px;
+Letter-spacing: -0.2px;
+
+}
+
+header {
+    background-color:  #FFFFFF;
+    }
+
+main {
+min-width: 0;
+}
+
+.swiper {
+      width: 100%;
+      height: 100%;
+      
+    }
+@media (min-width: 320px){
+    .swiper-slide {
+        max-width: 240px;
+      text-align: center;
+      display:  inline-block;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }}
+    @media (min-width: 768px){
+    .swiper-slide {
+        max-width: 224px;
+      text-align: center;
+      display:  inline-block;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+     }}
+
+.container {
+width: 320px;
+background-color: #F2F2F2;
+min-width: 0;
+}
+@media (min-width: 768px){
+.container {
+width: 768px;
+}}
+@media (min-width: 1120px){
+.container {
+width: 1120px;
+}}
+
+@media (min-width: 320px){
+.brands {
+display: flex;
+gap: 10px;
+min-width: 0;
+padding-bottom: 50px;
+
+}}
+@media (min-width: 768px){
+.brands {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+overflow: visible;
+padding-left: 10px;
+
+}}
+
+
+@media (min-width: 320px){
+.brand {
+width: 240px;
+height: 72px;
+flex-shrink: 0;
+display: flex;
+justify-content: space-between;
+background-color: #FFFFFF;
+border: 1px #EAEAEA;
+border-radius: 5px;
+min-width: 0;
+
+}}
+@media (min-width: 768px){
+.brand {
+width: 224px;
+height: 72px;
+display: flex;
+justify-content: space-between;
+}}
+
+
+.logo-border {
+height: 50px;
+width: 110px;
+margin-top: 5%;
+margin-left: 5%; 
+margin-bottom: 5%; 
+
+}
+
+
+.logo {
+height: 100%;
+background-repeat: no-repeat;
+background-size: contain;
+box-sizing: border-box;
+background-position: left center;
+
+}
+
+.arrow {
+width: 40px;
+height: 40px;
+border: 2px solid #FF3E79;
+border-radius: 50px;
+margin-top: 5%;
+margin-right: 5%; 
+margin-bottom: 5%; 
+}
+
+.arrow-top {
+width: 10px;
+height: 2px;
+background-color:  #FF3E79;
+position: relative;
+transform: rotate(225deg);
+top: 16px;
+left: 17px;
+border-radius: 5px;
+}
+
+.arrow-bottom {
+width: 10px;
+height: 2px;
+background-color:  #FF3E79;
+position: relative;
+transform: rotate(135deg);
+top: 20px;
+left: 17px;
+border-radius: 5px;
+}
+
+.lenovo {
+background-image: url("lenovo.svg");
+}
+
+.samsung {
+background-image: url("samsung.svg");
+}
+
+.apple {
+background-image: url("apple.svg");
+}
+
+.viewsonic {
+background-image: url("viewsonic.svg");
+}
+
+.bosch {
+background-image: url("bosch.svg");
+}
+
+.hp {
+background-image: url("hp.svg");
+}
+
+.acer {
+background-image: url("acer.svg");
+}
+
+.sony {
+background-image: url("sony.svg");
+}
+
+.hidden_text {
+font-family: TT Lakes;
+font-size: 16px;
+Line-height: 24px;
+
+border: solid;
+}
+
+@media (min-width: 320px) {
+#read_more_768 {
+    display: none;
+    position: relative ;
+    top: 5px;
+    left: 30px;
+    border: none;
+    background: none;
+    Font-family: "TT Lakes";
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 24px;
+    Letter-spacing: -0.2px;
+}} 
+@media (min-width: 768px) {
+#read_more_768 {
+    display: initial;
+    transform: translateX(25px) translateY(-35px);
+}}
+@media (min-width: 1120px) {
+#read_more_768 {
+    display: none;
+}}
+
+@media (min-width: 320px) {
+#read_more_1120 {
+    display: none;
+    position: relative ;
+    top: 5px;
+    left: 30px;
+    border: none;
+    background: none;
+    Font-family: "TT Lakes";
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 24px;
+    Letter-spacing: -0.2px;
+}} 
+@media (min-width: 768px) {
+#read_more_1120 {
+    display: none;
+}} 
+@media (min-width: 1120px) {
+#read_more_1120 {
+    display: initial;
+    transform: translateX(25px) translateY(-35px);
+    
+      
+ }} 
+
+ @media (min-width: 320px) {
+.next_mnemonic_symbol_768 {
+display: none;
+}}
+ @media (min-width: 768px) {
+.next_mnemonic_symbol_768 {
+    display: initial;
+transform: rotate(90deg);
+color: #0abab5;
+position: absolute;
+left: -25px;
+font-weight: bold;
+}}
+ @media (min-width: 1120px) {
+.next_mnemonic_symbol_768 {
+    display: initial;
+transform: rotate(90deg);
+color: #0abab5;
+position: absolute;
+left: -25px;
+font-weight: bold;
+}}
+
+ @media (min-width: 320px) {
+.next_mnemonic_symbol_1120 {
+display: none;
+}}
+ @media (min-width: 768px) {
+.next_mnemonic_symbol_1120 {
+    display: initial;
+transform: rotate(90deg);
+color: #0abab5;
+position: absolute;
+left: -25px;
+font-weight: bold;
+}}
+ @media (min-width: 1120px) {
+.next_mnemonic_symbol_1120 {
+    display: initial;
+transform: rotate(90deg);
+color: #0abab5;
+position: absolute;
+left: -25px;
+font-weight: bold;
+}}
+
+
+.next_mnemonic_symbol {
+transform: rotate(270deg);
+
+}
+
+
+
+/*
+
+ @media (min-width: 768px){
+    .brand:nth-child(n + 7) {
+        display: none;
+    }}
+
+      @media (min-width: 1120px){
+       .brand:nth-child(-n + 8) {
+        display: flex; }}
+/*
+    @media (min-width: 1120px){  
+    .brand:nth-child(n + 9) {
+        display: none;
+    }}
+*/
+
+
+@media (min-width: 320px) {
+    .dexttop_320 {
+        display: initial;
+    }
+}
+@media (min-width: 768px) {
+    .dexttop_320 {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) {
+    .dexttop_768_1120 {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .dexttop_768_1120 {
+        display: flex;
+         }
+}
+
+.show {
+
+    display: flex;
+}
+
+
+.unshow {
+
+    display: none;
+}
+
+.hidden {
+
+display: none;
+}
+
+/*
+ @media (min-width: 320px){
+    .hidden_logo_768 {
+        display: flex;
+        gap: 10px;
+        
+        }
+    }
+@media (min-width: 768px){
+    .hidden_logo_768 {
+        display: none;
+        gap: 10px;
+        flex-wrap: wrap;
+        }
+    }
+@media (min-width: 1120px ){
+    .hidden_logo_768 {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        }
+    }
+
+
+    @media (min-width: 320px) {
+    .hidden_logo_1120 {
+        display: flex;
+        gap: 10px;
+    }}
+    @media (min-width: 768px) {
+    .hidden_logo_1120 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }}
+   
+    
+    @media (min-width: 1120px) {
+    .hidden_logo_1119 {
+        display: none;
+         gap: 10px;
+    }}
+
+ */
